@@ -1,0 +1,27 @@
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/movies-front/node_modules
+/movies-front/.pnp
+/movies-front/.pnp.js
+
+# testing
+/movies-front/coverage
+
+# production
+/movies-front/build
+
+# misc
+/movies-front/.DS_Store
+/movies-front/.env.local
+/movies-front/.env.development.local
+/movies-front/.env.test.local
+/movies-front/.env.production.local
+
+/movies-front/npm-debug.log*
+/movies-front/yarn-debug.log*
+/movies-front/yarn-error.log*
+
+/movies-back/node_modules/
+/movies-back/.env
